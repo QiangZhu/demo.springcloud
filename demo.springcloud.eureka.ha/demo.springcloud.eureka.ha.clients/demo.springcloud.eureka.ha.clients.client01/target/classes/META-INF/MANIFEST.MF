@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: Invoking Service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: zq
+Implementation-Vendor-Id: com.yixin
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://projects.spring.io/spring-boot/demo.springc
+ loud.eureka.ha/demo.springcloud.eureka.ha.clients/demo.springcloud.eu
+ reka.ha.clients.client01/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

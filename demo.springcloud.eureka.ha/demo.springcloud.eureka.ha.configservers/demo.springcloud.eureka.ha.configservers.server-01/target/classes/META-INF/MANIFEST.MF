@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Cloud Config Server
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: zq
+Implementation-Vendor-Id: com.yixin
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://projects.spring.io/spring-boot/demo.springc
+ loud.eureka.ha/demo.springcloud.eureka.ha.configservers/demo.springcl
+ oud.eureka.ha.configservers.server01/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

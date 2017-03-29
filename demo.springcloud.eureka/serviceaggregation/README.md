@@ -1,19 +1,19 @@
-#Target
+# Target
    To build the single node ZUUL gateway
      The user Service supplies that which to search the user information by userid and the demparment one provides the service which
    to search the dempartment name by userid,so we need gateway to merge those into the whole one to client.
 	
-#Configuration
+# Configuration
 
-##Port:
+## Port:
     
     SpringCloud ConfigServer : 8888
     Netflix Eureka Server    : 8761
     User Service             : 8081
     Department Service       : 8082
-    Netflix ZUUL Service     : 8083
+    API Service              : 8083
     
-##SpringCloud ServerConfig Git Repository files
+## SpringCloud ServerConfig Git Repository files
 
 		cd ${user.home}
 		mkdir -p work/demo/zuul-serviceaggregation
@@ -41,13 +41,13 @@
       git add -A .
       git commit -m "Eureka service aggregation demo"
       
-#Package
+# Package
 
      mvn clean package -Dmaven.test.skip=true
     
-#Runtime
+# Runtime
 
-##Run
+## Run
   
       run springconfigserver 
       run eurekaserver
@@ -56,7 +56,7 @@
       run gateway
       
       
-##Data Ready
+## Data Ready
 
 ### To create a department 
   
@@ -108,7 +108,7 @@
 	      "id": 1
        }
       
-##Request ServiceAggregation Api
+### Request ServiceAggregation Api
 
 
 		POST /apiservice/api/user/find HTTP/1.1

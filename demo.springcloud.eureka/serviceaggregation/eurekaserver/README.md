@@ -1,0 +1,1 @@
+java -jar ./target/demo.springcloud.eureka.serviceaggregation.eurekaserver-0.0.1-SNAPSHOT.jar
